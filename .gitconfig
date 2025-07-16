@@ -1,0 +1,9 @@
+[user]
+	email = 146652203+Serious03black@users.noreply.github.com
+	name = serious03black
+	pass = pAS290503@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
